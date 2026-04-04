@@ -2,7 +2,7 @@
 A project for debugging and development with Raspberry Pi Pico.
 
 ## Description
-Pico Debugger is a custom-built hardware debugger powered by the Raspberry Pi RP2350 microcontroller.Instead of using a messy breadboard and a standard Raspberry Pi Pico  |   this custom board provides built-in voltage protection  |   real-time power measurement  |   and dedicated plug-and-play headers.
+Pico Debugger is a custom-built hardware debugger powered by the Raspberry Pi RP2350 microcontroller.Instead of using a messy breadboard and a standard Raspberry Pi Pico this custom board provides built-in voltage protection real-time power measurement and dedicated plug-and-play headers.
 
 <img width="2722" height="1536" alt="green pcb" src="https://github.com/user-attachments/assets/2cdb3990-44ef-4c47-a548-720f644eb6a9" />
 
@@ -68,7 +68,7 @@ Pico Debugger is a custom-built hardware debugger powered by the Raspberry Pi RP
 - `ProPrj_pico debugger_2026-04-05.epro`: Project file
 
 ## Usage
-You plug the probe into your PC using a standard USB-C cable  |   and your computer automatically recognizes it as a standard "CMSIS-DAP" debugging device. You connect the probe's debug wires to your target circuit. Using standard software (like VS Code and OpenOCD)  |   you can click "Run" to flash your firmware  |   step through your C/C++ or Rust code line-by-line  |   and read serial printf() outputs all through one single USB cable.
+You plug the probe into your PC using a standard USB-C cable and your computer automatically recognizes it as a standard "CMSIS-DAP" debugging device. You connect the probe's debug wires to your target circuit. Using standard software (like VS Code and OpenOCD), you can click "Run" to flash your firmware step through your C/C++ or Rust code line-by-line and read serial printf() outputs all through one single USB cable.
 
 ## License
 
