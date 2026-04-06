@@ -4,6 +4,10 @@ A project for debugging and development with Raspberry Pi Pico.
 ## Description
 Pico Debugger is a custom-built hardware debugger powered by the Raspberry Pi RP2350 microcontroller.Instead of using a messy breadboard and a standard Raspberry Pi Pico this custom board provides built-in voltage protection, debugs your code but also protects your computer from electrical spikes, adapts to any voltage, and tells you exactly how much power your project is consuming.
 
+I accidentally crashed my Raspberry Pico debugger due to a voltage spike.
+standard debuggers only operate at 3.3 volts—if you accidentally plug them into a 5-volt board, you fry your debugger , And that’s exactly what happened to me too
+
+
 <img width="2722" height="1536" alt="green pcb" src="https://github.com/user-attachments/assets/2cdb3990-44ef-4c47-a548-720f644eb6a9" />
 
 ## Hardware Specifications (For the Nerds)
